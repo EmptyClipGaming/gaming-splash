@@ -1,23 +1,25 @@
 ---
-layout: default
+layout: main
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="gameListings">
+  {% for post in site.games %}
+    <div class="gameListing">
+      <a href="{{post.url}}"><img class="gameLogo" src="{{post.logo}}" /></a>
+      <a href="{{post.url}}"><div class="gameListingTitle">{{ post.title }}</div></a>
+      <ul class="gameListingFlags">
+        {% for flag in post.flags %}
+          {% if flag == "supporter" %} 
+            <li><img src="/assets/img/supporter.png" /> <div class="flagText">Supporter Only</div></li>
+          {% endif %}
+          {% if flag == "closed" %} 
+            <li><img src="/assets/img/closed.png" /> <div class="flagText">Closed</div></li>
+          {% endif %}
+          {% if flag == "open" %}
+            <li><img src="/assets/img/open.png" /> <div class="flagText">Open to Public</div></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
 </div>

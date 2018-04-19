@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <header>
+      <a href="/"><img src="/assets/img/EC.png" /></a> 
+      <div class="headerText">{{page.title}}</div>
+      <img src="{{page.logo}}" />
+    </header>
+    <aside>
+      <div class="gameFlagsHeader">
+        <ul>
+          {% for flag in page.flags %}
+            {% if flag == "supporter" %} 
+              <li><img src="/assets/img/supporter.png" /> <div class="flagText">Supporter Only</div></li>
+            {% endif %}
+            {% if flag == "closed" %} 
+              <li><img src="/assets/img/closed.png" /> <div class="flagText">Closed</div></li>
+            {% endif %}
+            {% if flag == "open" %}
+              <li><img src="/assets/img/open.png" /> <div class="flagText">Open to Public</div></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </aside>
+    <main>
+      {{ content }}
+    </main>
+  </body>
+
+</html>
