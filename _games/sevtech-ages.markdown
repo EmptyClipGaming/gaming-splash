@@ -27,7 +27,7 @@ This server is Supporter Only, which means you need to have done one of the foll
 
 Once you have done that you need to join the Discord ([Click Here to Join](https://link.emptyclip.gg/discord)). After joining discord make sure your Twitch/Patreon account is linked to your discord account.
 
-Inside the "sevtech-server" chat under "supporter only" please send a message to @perpetualgamer with your minecraft IGN so that I can add you to the whitelist. Once you are added to the whitelist you can connect at game.emptyclip.gg.
+Inside the "sevtech-server" chat under "supporter only" please send a message to @perpetualgamer with your minecraft IGN so that I can add you to the whitelist. Once you are added to the whitelist you can connect at ```game.emptyclip.gg```.
 
 ## Rules
 
