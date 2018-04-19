@@ -9,7 +9,7 @@ flags:
 
 SevTech: Ages is a massive modpack packed with content and progression. This pack focuses on providing the player a long term progression experience with purpose. SevTech introduces a number of mechanics never before done such as: hiding ore until unlocked, dynamically hidden items and recipes based on progress, new mobs appear as you progress further and much more! The modpack uses the vanilla advancement system to guide the player along while still allowing an open, sandbox experience. As you progress through the hundreds of custom advancements you will unlock new "ages" which will show you new mods to work through. 
 
-SevTech aims to introduce many mods not frequently used while altering some more widely known mods. The pack also features a ton of custom mods for the best player experience. 
+SevTech aims loto introduce many mods not frequently used while altering some more widely known mods. The pack also features a ton of custom mods for the best player experience. 
 
 You'll start your first world with nothing. No map or HWYLA and only a handful of items and recipes. As you progress, you will unlock those features, thousands of items and blocks, and much more. Your goal is to follow through the advancement system from the stone age all the way into space!
 
@@ -42,10 +42,10 @@ Inside the "sevtech-server" chat under "supporter only" please send a message to
 
 ### Together Forever (Co-op)
 
-`/tf invite` - Invites a player to your team, if you don't have a team it will be created
-`/tf accept` - Accepts an invite to join a team from a player
-`/tf decline` - Declines an invite from a player
-`/tf kick` - Kicks a player out of your team
-`/tf leave` - Leaves your current team
-`/tf info` - Tells you whos on your team
-`/tf help` - THESE COMMANDS AND MORE!
+* `/tf invite` - Invites a player to your team, if you don't have a team it will be created
+* `/tf accept` - Accepts an invite to join a team from a player
+* `/tf decline` - Declines an invite from a player
+* `/tf kick` - Kicks a player out of your team
+* `/tf leave` - Leaves your current team
+* `/tf info` - Tells you whos on your team
+* `/tf help` - THESE COMMANDS AND MORE!
