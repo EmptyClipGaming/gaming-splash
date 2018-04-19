@@ -37,3 +37,15 @@ Inside the "sevtech-server" chat under "supporter only" please send a message to
 4. Do not PVP without permission - If you would like to PvP with someone then please get their permission first, if we have problems then I have to deal with it.
 5. Don't take whats not yours - Simple, if you didn't get it for yourself and they aren't giving it to you, don't touch it, again if theres problems I can fix it.
 6. Respect other's space - Be mindful of other people's bases and space. No one likes to find out they got boxed in, least of all by other players. If you aren't sure leave a message in the discord.
+
+## Useful Information
+
+### Together Forever (Co-op)
+
+`/tf invite` - Invites a player to your team, if you don't have a team it will be created
+`/tf accept` - Accepts an invite to join a team from a player
+`/tf decline` - Declines an invite from a player
+`/tf kick` - Kicks a player out of your team
+`/tf leave` - Leaves your current team
+`/tf info` - Tells you whos on your team
+`/tf help` - THESE COMMANDS AND MORE!
